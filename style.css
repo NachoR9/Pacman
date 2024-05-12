@@ -15,3 +15,7 @@
     place-items: center;
 
 }
+
+body {
+    background-image: url("fondo-pacman.jpg")
+}
