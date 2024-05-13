@@ -1,6 +1,17 @@
 h1 {
     color: yellow;
     text-align: center;
+    
+}
+
+.picture-header {
+    width: 100px;
+    height: 100px;
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 45vw;
+    display: inline;
+
 }
 
 .pacman {
