@@ -11,26 +11,18 @@ h1 {
     margin-bottom: auto;
     margin-left: 45vw;
     display: inline;
-
 }
 
 .pacman {
     width: 100px;
     height: 100px;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    position: absolute;
+    left: 50%;
     display: block;
-    
-
 }
 
 .pacman-container {
     height: 100vh;
-    display: grid;
-    place-items: center;
-
 }
 
 .ghost {
