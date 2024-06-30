@@ -19,17 +19,27 @@ h1 {
     position: absolute;
     left: 50%;
     display: block;
+
 }
 
 .pacman-container {
     height: 100vh;
+
 }
 
 .ghost {
     height: 100px;
     width: 100px;
+
+}
+
+.cherry {
+    height: 100px;
+    width: 100px;
+
 }
 
 body {
     background-image: url("/images/fondo-pacman.jpg")
+    
 }
