@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pacman</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -16,17 +16,18 @@
     
     <main>
     <div class="pacman-container">
-        <img class="pacman" src="/images/pac-man-logo.png" alt="pacman">
+        <img class="pacman" id="pacman" src="/images/pac-man-logo.png" alt="pacman">
     </div>
 
     <div class="ghost-container">
-        <img class="ghost" src="./images/fantasmito.png" alt="fantasmito">
+        <img class="ghost" id="ghost" src="./images/fantasmito.png" alt="fantasmito">
     </div>
     </main>
 
     <audio autoplay>
         <source src="Pacman-Game-Start-Sound.mp3" type="audio/mp3">
     </audio>
+  <script src="./pacman.js"></script>
 </body>
 
 </html>
