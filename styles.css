@@ -4,6 +4,14 @@ h1 {
     
 }
 
+#counter {
+    color: white;
+    padding-left: 24px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: right;
+}
+
 .picture-header {
     width: 100px;
     height: 100px;
@@ -42,4 +50,14 @@ h1 {
 body {
     background-image: url("/images/fondo-pacman.jpg")
     
+}
+
+.game-over {
+    position: absolute;
+    top: 20vh;
+    color: red;
+    font-size: 100px;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
 }
