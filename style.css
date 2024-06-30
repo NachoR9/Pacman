@@ -32,6 +32,10 @@ h1 {
 
 }
 
+.ghost {
+    height: 100px;
+    width: 100px;
+}
 body {
     background-image: url("/images/fondo-pacman.jpg")
 }
